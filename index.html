@@ -1,114 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Welcome to HINTechnologies</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(135deg, #e0eafc, #cfdef3);
-            color: #333;
-        }
-        h1 {
-            text-align: center;
-            font-size: 3em;
-            margin-top: 50px;
-            color: #005792;
-        }
-        .container {
-            max-width: 850px;
-            margin: 40px auto;
-            background-color: #ffffff;
-            border-radius: 12px;
-            padding: 40px;
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-        }
-        .highlight {
-            color: #d63447;
-            font-weight: bold;
-        }
-        .footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #005792;
-            color: #fff;
-            font-size: 1.1em;
-        }
-        .button a {
-            display: inline-block;
-            background-color: #d63447;
-            color: white;
-            padding: 14px 32px;
-            font-size: 1.1em;
-            border-radius: 6px;
-            text-decoration: none;
-            transition: background-color 0.3s;
-        }
-        .button a:hover {
-            background-color: #b32e39;
-        }
-        .content {
-            font-size: 1.15em;
-            line-height: 1.7;
-            color: #444;
-        }
-        .preformatted {
-            background: #f4f6f8;
-            padding: 18px;
-            border-left: 5px solid #005792;
-            margin-top: 25px;
-            font-family: monospace;
-            white-space: pre-wrap;
-        }
-        .card {
-            background: #f9fafc;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-            margin-top: 25px;
-        }
-        .card h3 {
-            margin-top: 0;
-            color: #005792;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome to HINTechnologies</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    header {
+      background-color: #005792;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.8em;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #005792;
+      font-size: 2em;
+      margin-bottom: 15px;
+    }
+
+    .highlight {
+      color: #d63447;
+      font-weight: bold;
+    }
+
+    .card {
+      background-color: #f9fafc;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      margin-top: 20px;
+    }
+
+    .map-responsive {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0;
+      border-radius: 10px;
+    }
+
+    .map-responsive iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      border: 0;
+    }
+
+    .button a {
+      display: inline-block;
+      background-color: #d63447;
+      color: white;
+      padding: 12px 28px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      margin-top: 20px;
+    }
+
+    .button a:hover {
+      background-color: #b72b3d;
+    }
+
+    footer {
+      background-color: #005792;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
 
-    <h1>Welcome to HINTechnologies!</h1>
+<header>
+  <h1>Welcome to HINTechnologies</h1>
+</header>
 
-    <div class="container">
-        <div class="content">
-            <p>Welcome to <span class="highlight">HINTechnologies</span>! You are now part of our exclusive job-oriented DevOps training program.</p>
-            <p>If you're seeing this page, your <span class="highlight">projects03</span> setup is successfully running!</p>
-            
-            <div class="card">
-                <h3>Contact Us</h3>
-                <p>For any training inquiries, feel free to contact us:</p>
-                <p>📞 +91 9866240424 &nbsp; | &nbsp; +91 9030880875</p>
-            </div>
+<div class="container">
 
-            <p><strong>HINTechnologies</strong> has been a leader in job-oriented training since 2014, placing over 500+ students successfully.</p>
-            <p>We offer comprehensive programs in <strong>Middleware</strong>, <strong>DevOps</strong>, and <strong>Python</strong>.</p>
-            
-            <div class="button">
-                <a href="https://hintechnologies.com">Learn More and Boost Your Career!</a>
-            </div>
+  <div class="section">
+    <h2>About Us</h2>
+    <p>Welcome to <span class="highlight">HINTechnologies</span>! We specialize in job-oriented DevOps, Middleware, and Python training. Since 2014, we've trained and placed 500+ students across the industry.</p>
+    <p>Your <span class="highlight">projects03</span> setup is successfully running. We’re excited to be part of your learning journey!</p>
+  </div>
 
-            <div class="preformatted">
-==================================================
-  Welcome to HINTechnologies!                       
-==================================================
-            </div>
-        </div>
+  <div class="section card">
+    <h2>Our Location</h2>
+    <p><strong>HINTechnologies</strong><br>
+    Plot No. 101, Road No. 10C,<br>
+    Jubilee Hills, Hyderabad, Telangana, India</p>
+
+    <div class="map-responsive">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4564943324166!2d78.40212367495474!3d17.438552001186894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91594a0a9eab%3A0xe9a60999c43c7460!2sJubilee%20Hills%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1683024846959!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+  </div>
 
-    <div class="footer">
-        &copy; 2025 HINTechnologies | All Rights Reserved
-    </div>
+  <div class="section">
+    <h2>Contact Us</h2>
+    <p>For inquiries or support, reach out to:</p>
+    <ul>
+      <li>📞 +91 9866240424</li>
+      <li>📞 +91 9030880875</li>
+      <li>📧 Email: <a href="mailto:support@hintechnologies.com">support@hintechnologies.com</a></li>
+    </ul>
+
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your name" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email" />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" placeholder="Your message..."></textarea>
+
+      <div class="button">
+        <a href="#">Send Message</a>
+      </div>
+    </form>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2025 HINTechnologies | All Rights Reserved
+</footer>
 
 </body>
 </html>
